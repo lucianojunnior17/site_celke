@@ -1,4 +1,14 @@
-# site_celke
+Como rodar projeto Baixado
+Instalar as dependências
+
+### npm install
+
+Rodar projeto
+
+### npm run dev
+
+
+### site_celke
 Curso de Node Celke
 
 Sequência executadas e Biblioteca instalada durante a semana da imersão
@@ -9,3 +19,7 @@ Criar o arquivo package.json
 Instalando o react next 
 
 ### npm install next react react-dom
+
+Rodar o Projeto
+
+### npm run dev
