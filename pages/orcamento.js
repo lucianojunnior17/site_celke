@@ -1,8 +1,10 @@
+import Menu from '../components/Menu'
+
 function Home() {
     return (
       <div>
-      <a href='/'> Home</a> <br></br>
-      <a href='/orcamento'> Orçamento</a>
+         <Menu /><hr />
+      
     </div>
     )
   }

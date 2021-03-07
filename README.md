@@ -23,3 +23,9 @@ Instalando o react next
 Rodar o Projeto
 
 ### npm run dev
+
+Instalar o Bootstrap
+### npm install --save bootstrap
+
+Instalar o ReactStreap
+### npm install --save reactstrap react react-dom
