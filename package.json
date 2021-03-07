@@ -1,0 +1,27 @@
+{
+  "name": "site_celke",
+  "version": "1.0.0",
+  "description": "Aula Celke",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucianojunnior17/site_celke.git"
+  },
+  "author": "Luciano lima Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucianojunnior17/site_celke/issues"
+  },
+  "homepage": "https://github.com/lucianojunnior17/site_celke#readme",
+  "dependencies": {
+    "next": "^10.0.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
