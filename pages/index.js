@@ -1,10 +1,20 @@
 import React from 'react';
-import { Jumbotron, Container } from 'reactstrap';
+
+import Head from 'next/head';
+
 import Menu from '../components/Menu'
+import Rodape from '../components/Rodape';
+
+import { Jumbotron, Container } from 'reactstrap';
 
 function Home() {
   return (
     <div>
+        <Head>
+          <title>
+            Home
+          </title>
+        </Head>
 
       <Menu /><hr />
 
@@ -34,7 +44,12 @@ function Home() {
                 width: 140px;
                 height: 140px;
                 background-color: #0A197D;
-                color: #fff
+                font-size: 52px;
+                color: #fff;
+                padding-top: 24px;
+          }.centralizar{
+            margin: 0 auto !important;
+            float: none !importante;
           }`} 
         </style>
         <Container className="text-center">
@@ -44,19 +59,25 @@ function Home() {
           </div>
           <div className="row">
             <div className="col-md-4">
-              <div clasName="rounded-circle redondo centralizar" >
+              <div className="rounded-circle redondo centralizar" >
                 A
                   </div>
+                  <h2 className="mt-4 mb-4" >Serviço 1 </h2>
+                  <p>paragrafo do serviço 1</p>
             </div>
             <div className="col-md-4">
-              <div clasName="rounded-circle circulo centralizar" >
+              <div className="rounded-circle redondo centralizar" >
                 B
                       </div>
+                      <h2 className="mt-4 mb-4" >Serviço 2 </h2>
+                  <p>paragrafo do serviço 2</p>
 
             </div><div className="col-md-4">
-              <div clasName="rounded-circle circulo centralizar" >
+              <div className="rounded-circle redondo centralizar" >
                 C
                       </div>
+                      <h2 className="mt-4 mb-4" >Serviço 3 </h2>
+                  <p>paragrafo do serviço 3</p>
 
             </div>
 
@@ -64,6 +85,8 @@ function Home() {
 
         </Container>
       </Jumbotron>
+
+      <Rodape />
 
 
     </div>
